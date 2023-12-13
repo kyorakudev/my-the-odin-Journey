@@ -1,0 +1,16 @@
+html {
+    font-family: 'Fira Code';
+    font-size: small;
+    background: rgb(254, 217, 237);
+    background: linear-gradient(90deg, rgba(254,217,237,1) 0%, rgba(231,188,222,1) 50%, rgba(187,156,192,1) 100%);
+}
+
+ul {
+    list-style-type: square;
+    color: #191919;
+}
+
+ol {
+    list-style-type: lower-alpha;
+    color: #161A30;
+}
