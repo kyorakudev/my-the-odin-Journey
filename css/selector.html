@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+        <link rel="stylesheet" href="selectorstyle.css">
+    </head>
+    <body>
+        <h1>CSS selector</h1>
+        <p>it's my practice for intro to CSS</p>
+        <div id="container">
+            <h2>lorem</h2>
+                <p class="longtext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+            Deleniti sunt eius fuga repudiandae eum perferendis deserunt repellendus, <br> 
+            reprehenderit, animi vel vero fugiat veritatis, sint beatae soluta explicabo? Repellat, veritatis natus?
+        </p>
+        </div>
+        <h3>Universal selectors</h3>
+        <p>how to use it : <br>
+            just type * { <br>
+            property : value <br>
+            }</p>
+        <h3>Type selectors</h3>
+        <p class="text">how to use it : <br>
+            just type html element you need to give style
+            like this</p>
+            <img src="/images/typeselector.png" alt="screenshot of type selector">
+        <h3>Class selectors</h3>
+        <p class="text">how to use it : <br>
+            when you added html element, u will add a "class" atribute and 
+            type ".nameclass" in CSS file.</p>
+        <img src="/images/classselector.png" alt="screenshot of class selector">
+        <h3>ID selectors</h3>
+        <p class="text">how to use it : <br>
+            similar to class selector. type "#nameid" in CSS file. <br> 
+            note: u can't use the id selector in all element, just one element in one page</p>
+        <img src="/images/IDselector.png" alt="screenshot of id selector">
+        <h3>Grouping selectors</h3>
+        <p class="text">how to use it : <br>
+            if u have same properties in different selectors, you should grouping the selectors with same properties
+        </p>
+        <div class="img container">
+            <img src="/images/grouping.png" alt="before chaining">
+            <img src="/images/aftergrouping.png" alt="after chaining">
+        </div>
+        <h3>Chaining selectors</h3>
+        <p class="text">
+            how to use it : <br>
+           <div class="text container">chain the selector as a list without any seperation.</p></div>
+        <img src="/images/chaining.png" alt="cahining selector">
+        <ul class="parent">
+            <p class="text">descendant combinator</p>
+            <li class="content">list</li>
+            <li class="content">list</li>
+            <li class="content">list</li>
+            <li class="content">list</li>
+            <li class="content">list</li>
+        </ul>
+    </body>
+</html>
