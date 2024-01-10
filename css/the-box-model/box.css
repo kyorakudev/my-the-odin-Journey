@@ -2,14 +2,12 @@ body {
     font-family: 'Poppins', sans-serif;
     align-items: center;
 }
-
 .center {
     display: block;
     margin: 10px auto;
     width: 20%;
     height: 20%;
 }
-
 .sizing {
     border: 2px solid;
     padding: 1em;
@@ -17,26 +15,22 @@ body {
     height: max-content;
     width: max-content;
 }
-
 p, article {
     font-size: small;
     text-align: center;
 }
-
 .mainheading {
     text-align: center;
     color: white;
     background-color: cornflowerblue;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .5); 
 }
-
 .colorize {
     text-align: center;
     color: white;
     background-color: #7FC7D9;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .5); 
 }
-
 .list-container {
     display: flex;
     flex-flow: wrap;
@@ -44,7 +38,6 @@ p, article {
     align-items: center;
     justify-content: center;
 }
-
 ul, li {
     list-style-type: none;
     font-size: small;
@@ -55,7 +48,6 @@ ul, li {
     padding: 2px 2px;
     background-color: whitesmoke;
 }
-
 .smaller {
     text-align: start;
     font-size: smaller;
