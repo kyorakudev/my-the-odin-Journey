@@ -54,3 +54,11 @@ ul, li {
     margin-left: 4px;
     margin-right: 4px;
 }
+
+.inline {
+    background-color: orangered;
+}
+
+.block {
+    background-color: pink;
+}
